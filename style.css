@@ -1,0 +1,204 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    margin: 6vh 6vw;
+}
+
+/* Navbar */
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15vh;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+}
+
+/* menue/list item */
+
+.list-item{
+    margin-left: 60px;
+    font-size: 18px;
+    color: #000;
+}
+
+.list-item:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/* logo */
+
+.navbar-container div img{
+    width: 120px;
+    margin-right: 200px;
+}
+
+/* navbar button */
+
+.button-group{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.nav-button{
+    height: 5vh;
+    width: 135px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 25px;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* <!-- Hero Banner Section --> */
+
+.hero-container{
+    display: flex;
+    position: relative;
+}
+
+/* square image */
+
+.square{
+    position: relative;
+    top: 325px;
+    left: 205px;
+}
+
+/* hero image */
+
+.hero-container div img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* top star image */
+.star{
+    position: absolute;
+    right: 0;
+    top: 5vh;
+}
+
+/* bottom star image */
+.star1{
+    position: absolute;
+    top: 89vh;
+    right: 40vw;
+    
+}
+
+.star1 img{
+    width: 50px;
+}
+
+/* center globe image */
+
+.globe{
+    position: absolute;
+    left: 50vw;
+    top:-6vh;
+}
+
+/* right text .hero-container */
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 14vw;
+    top: 25vh;
+    width: 45vw;
+    text-align: center;
+    align-items: center;
+}
+
+/* right container heading */
+
+.hero-heading{
+    font-size: 50px;
+    margin-bottom: 8vh;
+}
+
+/* right container discription text */
+
+.hero-description{
+    font-size: small;
+    width:35vw;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15vh;
+}
+
+/* right container email button */
+
+.button-email{
+    height: 5vh;
+    width: 15vw;
+    border-radius: 8px;
+    font-size: 18px;
+    color: gray;
+    margin-right: 15px;
+}
+
+.button-email:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+
+/* right container join button */
+
+.button-join{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 8px;
+    font-size: 15px;
+    color:#fff;
+    background-color: #000;
+
+}
+
+.button-join:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+/* bottom social media heading text */
+
+.contact-heading{
+    margin-top:20vh;
+    color: gray;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/* bottom social media icon */
+
+.icons span img{
+    position: relative;
+    right:0;
+    top: 2vh;
+    margin: 10px;
+}
+
+.icons span img:hover{
+    cursor: pointer;
+    
+}
